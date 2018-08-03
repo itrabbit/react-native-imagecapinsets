@@ -9,7 +9,7 @@ Support Image capInsets for Android (only for RN >= 0.56)
 ## Example
 
 ```javascript
-import ImageCapInset from 'react-native-imagecapinsets';
+import ImageCapInset from 'rn-imagecapinsets';
 
 import BubbleImage from './images/bubble.png';
 

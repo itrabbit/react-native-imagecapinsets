@@ -6,9 +6,7 @@ import {
 import ImageResizeMode from 'react-native/Libraries/Image/ImageResizeMode';
 
 // noinspection JSUnusedGlobalSymbols
-export default class ImageCapInset extends React.Component {
-    static propTypes = ImageBackground.propTypes;
-    static defaultProps = ImageBackground.defaultProps;
+class ImageCapInset extends React.Component {
     render() {
         // noinspection JSUnresolvedVariable
         return (
@@ -16,3 +14,9 @@ export default class ImageCapInset extends React.Component {
         );
     }
 }
+
+ImageCapInset.propTypes = ImageBackground.propTypes;
+
+ImageCapInset.defaultProps = ImageBackground.defaultProps;
+
+export default ImageCapInset;

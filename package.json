@@ -25,10 +25,5 @@
     "react": "^16.4.1",
     "prop-types": "^15.6.2",
     "react-native": "^0.56.0"
-  },
-  "devDependencies": {
-    "react": "^16.4.1",
-    "prop-types": "^15.6.2",
-    "react-native": "^0.56.0"
   }
 }

@@ -19,7 +19,8 @@
     "resizableimagewithcapinsets",
     "images",
     "react-native",
-    "native"
+    "native",
+    "rn_0.56"
   ],
   "peerDependencies": {
     "react": "^16.4.1",

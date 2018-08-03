@@ -12,8 +12,9 @@ import javax.annotation.Nullable;
 public class RCTResourceDrawableIdHelper {
     private Map<String, Integer> mResourceDrawableIdMap;
 
+    @SuppressWarnings("WeakerAccess")
     public RCTResourceDrawableIdHelper() {
-        mResourceDrawableIdMap = new HashMap<String, Integer>();
+        mResourceDrawableIdMap = new HashMap<>();
     }
 
     public int getResourceDrawableId(Context context, @Nullable String name) {
@@ -29,11 +30,13 @@ public class RCTResourceDrawableIdHelper {
         return id;
     }
 
+    @SuppressWarnings("unused")
     public @Nullable Drawable getResourceDrawable(Context context, @Nullable String name) {
         int resId = getResourceDrawableId(context, name);
         return resId > 0 ? context.getResources().getDrawable(resId) : null;
     }
 
+    @SuppressWarnings("unused")
     public Uri getResourceDrawableUri(Context context, @Nullable String name) {
         int resId = getResourceDrawableId(context, name);
         return resId > 0 ? new Uri.Builder()

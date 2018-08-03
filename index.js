@@ -1,1 +1,1 @@
-export * from './ImageCapInset';
+export default from './ImageCapInset';

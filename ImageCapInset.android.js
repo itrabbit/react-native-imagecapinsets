@@ -6,7 +6,6 @@ import {
     requireNativeComponent,
 } from 'react-native';
 
-import ImageResizeMode from 'react-native/Libraries/Image/ImageResizeMode';
 import resolveAssetSource from 'react-native/Libraries/Image/resolveAssetSource';
 
 class ImageCapInset extends React.Component {
@@ -18,8 +17,8 @@ class ImageCapInset extends React.Component {
             <View {...rest}>
                 <RCTImageCapInset
                     capInsets={capInsets}
+                    resizeMode={'stretch'}
                     source={normalizedSource}
-                    resizeMode={ImageResizeMode.stretch}
                     style={{position: 'absolute', top: 0, left: 0, bottom: 0, right: 0}} />
                 {children}
             </View>

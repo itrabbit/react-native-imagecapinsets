@@ -5,7 +5,7 @@
     "type": "git",
     "url": "https://github.com/itrabbit/react-native-imagecapinsets.git"
   },
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Support Image capInsets for Android",
   "author": {
     "name": "IT Rabbit"
@@ -23,8 +23,8 @@
     "rn_0.56"
   ],
   "peerDependencies": {
-    "react": "^16.4.1",
+    "react": "*",
     "prop-types": "^15.6.2",
-    "react-native": "^0.56.0"
+    "react-native": "^0.58.*"
   }
 }
